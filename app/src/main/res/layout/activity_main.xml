@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/testContainer"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Это тестовый текст для тестов"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAngle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Угол = 0" />
+
+    <SeekBar
+        android:id="@+id/angleSeekBar"
+        android:max="360"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvFirstOffset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Первый отступ = 0" />
+
+    <SeekBar
+        android:id="@+id/firstOffsetSeekBar"
+        android:max="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvSecondOffset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Второй отступ = 1" />
+
+    <SeekBar
+        android:id="@+id/secondOffsetSeekBar"
+        android:max="100"
+        android:progress="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvScaleX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="ScaleX = 1" />
+
+    <SeekBar
+        android:id="@+id/scaleXSeekBar"
+        android:max="300"
+        android:progress="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvScaleY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="ScaleY = 1" />
+
+    <SeekBar
+        android:id="@+id/scaleYSeekbar"
+        android:max="300"
+        android:progress="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
